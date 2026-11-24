@@ -1,0 +1,11 @@
+note_id,appointment_id,root_cause,confidence,summary,recommended_action,validation_status,raw_response
+N001,A0872,forgot_or_no_reminder,1.0,Patient missed the appointment because they did not receive a reminder and subsequently forgot the scheduled visit.,Verify patient contact information and ensure automated reminder system is functioning correctly for future appointments.,invalid,"{""root_cause"": ""forgot_or_no_reminder"", ""confidence"": 1.0, ""summary"": ""Patient missed the appointment because they did not receive a reminder and subsequently forgot the scheduled visit."", ""recommended_action"": ""Verify patient contact information and ensure automated reminder system is functioning correctly for future appointments.""}"
+N002,A0897,,,,,invalid,
+N003,A0526,,,,,invalid,
+N004,A0926,other,0.0,No note recorded,Re-call patient,skipped_blank,
+N005,A0534,,,,,invalid,
+N006,A0507,,,,,invalid,
+N007,A0333,,,,,invalid,
+N008,A0222,,,,,invalid,
+N009,A0977,other,0.8,Patient was unreachable after three attempts because their phone was switched off.,Send a follow-up letter or email to request updated contact information and reschedule.,invalid,"{""root_cause"": ""other"", ""confidence"": 0.8, ""summary"": ""Patient was unreachable after three attempts because their phone was switched off."", ""recommended_action"": ""Send a follow-up letter or email to request updated contact information and reschedule.""}"
+N010,A0596,work_or_schedule,1.0,Patient missed the appointment due to a mandatory shift change at their workplace and requested Saturday availability.,Update patient profile to prioritize weekend appointment slots and offer flexible scheduling options.,invalid,"{""root_cause"": ""work_or_schedule"", ""confidence"": 1.0, ""summary"": ""Patient missed the appointment due to a mandatory shift change at their workplace and requested Saturday availability."", ""recommended_action"": ""Update patient profile to prioritize weekend appointment slots and offer flexible scheduling options.""}"
